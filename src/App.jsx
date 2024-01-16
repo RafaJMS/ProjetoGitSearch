@@ -30,7 +30,7 @@ function App() {
       <div className='container'>
           <h2 className='label-entrada'>GitSearch</h2>
           <div className='input-box'>
-            <input type="text" placeholder='' id='input-entrada' value={Usuario} onChange={e=>setUsuario(e.target.value)} onKeyDown={handleKeyPress} />
+            <input type="text" placeholder='GitUser' id='input-entrada' value={Usuario} onChange={e=>setUsuario(e.target.value)} onKeyDown={handleKeyPress} />
             <img id='logo' src={logo} alt='logo-github'onClick={handlePesquisa}></img> 
         </div>
         <div className='response-box'>
