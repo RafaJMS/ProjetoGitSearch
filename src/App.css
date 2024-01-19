@@ -1,8 +1,6 @@
 .container{
   gap: 1rem;
   width: 100%;
-  min-width: 47vw;
-  min-height: 60vh;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -14,7 +12,7 @@
   
 }
 .label-entrada{
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 40px;
 }
 
@@ -31,9 +29,9 @@
   margin-bottom: 2rem;
   margin-top: 0;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 1.5rem;
-  align-items: center;
+  
 }
 
 #input-entrada{
@@ -62,12 +60,30 @@
  }
  .text-box{
   flex-direction: column;
+
   display: flex;
   text-align: center;
   gap: 0.5rem;
  }
 
+ .imgbox{
+  display: flex;
+  justify-content: center;
+ }
+
  .user-avatar{
-  width: 150px;
+  width: 270px;
   border-radius: 50%;
  }
+.repos{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(53, 51, 51);
+  padding: 1.5rem;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+h1{
+  font-size: 26px;
+  text-align: center;
+}

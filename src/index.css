@@ -18,4 +18,5 @@ body{
   justify-content: center;
   align-items: center;
   background-color: rgb(28, 27, 33);
+  box-sizing: border-box;
 }

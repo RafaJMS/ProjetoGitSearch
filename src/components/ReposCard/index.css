@@ -1,0 +1,10 @@
+.projeto{
+    align-items: center;
+  }
+  .projeto a:link{
+    text-decoration: none;
+  }
+  .projeto a:hover{
+    text-decoration: underline;
+    color: rgb(231, 195, 76);
+  }
